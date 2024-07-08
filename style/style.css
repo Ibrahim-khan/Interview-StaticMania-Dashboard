@@ -1,0 +1,303 @@
+@font-face {                                                    /*Font Poppins*/
+    font-family: "Poppins";
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {                                                    /*Font Avenir Next*/
+    font-family: "AvenirNext";
+    src: url(../font/AvenirNextLTPro-Regular.otf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{                                /*Dashboard Design and Background*/
+    background-color: #101010;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 1%;
+}
+.profile{                            /*Profile full part*/
+    color: #ffffff;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-family: "Poppins";
+}
+.notification{                      /*Notification design*/
+    margin-top: -70px;
+    margin-left: 50px;
+}
+
+.Introduction h2{                   /*Name*/
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.Introduction p{                    /*Email*/
+    margin-top: -12px;
+    font-size: 10px;
+    opacity: 60%;
+}
+
+
+.sidebar{                           /*Side bar Design*/
+    float: left;
+    width: 20%;
+}
+
+.menu{                              /*Menu list Start*/
+    margin-left: -40px;
+    margin-top: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    opacity: 50%;
+}                                    /*Menu list End*/
+
+
+.content{                           /*Content Design Start*/
+    background-color: #ffffff;
+    width:75%;
+    height: 90vh;
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 1%;
+}
+
+.mainContent{                       /*Content Main part Start*/
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 70%;
+}
+
+.contentHeading{                     /*content heading*/
+    display: flex;
+    width: 100%;
+    font-family: "Poppins";
+}
+
+.title h1{                            /*Expenses*/
+    color: #262A41;
+    font-size: 25px;
+}
+.title h6{                           /*Expenses date*/
+ color: #101010;
+ opacity: 50%;
+ font: 12px;
+ margin-top: -18px;
+}
+
+.user{                                /*User Picture */
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+.user img{
+    width: 30px;
+    height: 30px;
+    margin-left: -10px;
+}
+
+.stats img{                         /*Stats Picture*/
+    width: 450px;
+    height: 35px;
+}
+                                   /*Today Programe*/
+.today{
+    display: flex;
+    font-family: "AvenirNext";
+    color: #262A41;
+}
+.today h2{
+    float: left;
+    font-size: 16px;
+}
+.today span{
+    margin-left: 380px;
+    color: #D8D8D8;
+}
+.hr{                                     /*hr*/
+    margin-top: -15px;
+    color: #DEDEDE;
+    opacity: 50%;
+    width: 450px;
+}                  
+
+                                        /*Today List Start*/
+.list{
+    margin-top: 25px;
+    font-family: "Poppins";
+}
+
+.list img{
+    height: 31px;
+    width: 31px;
+    margin-right: 10px;
+}
+
+.list h4{                               /*Today Programe Name*/
+    color: #273240;
+    font-size: 12px;
+}
+
+.listText{
+    margin-top: -18px;
+}
+.listText p{                           /*Today Program Time*/
+    color: #404852;
+    font-size: 10px;
+    margin-top: -16px;
+}
+
+.listTitle{                           
+    display: flex;
+    margin-top: 10px;
+}
+
+.Number{                                /*Amount*/
+    margin-left: 230px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #273240;
+}
+
+.Number1{                               /*Amount*/
+    margin-left: 270px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #273240;
+}
+.Number2{                               /*Amount*/
+    margin-left: 260px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #273240;
+}                                       /*Today List End*/                          
+                            
+.date{                                 /*Date Start*/
+    margin-top: 0px;
+    font-family: "AvenirNext";
+    color: #262A41;
+    display: flex;
+}
+.date h2{
+    float: left;
+    font-size: 16px;
+}
+.date span{
+    margin-left: 260px;
+    color: #D8D8D8;
+}
+                                              /*Date End*/
+                                              /*Content Main part End*/
+                                              /*Right Content Start*/
+.rightContent{
+    background-color: #F9FAFC;
+    float: right;
+    height: 90vh;
+    width: 32%;
+    margin-top: -505px;
+    border-radius: 0 1% 1% 0;
+}
+
+.rightContent h3{                           /*Where your money go?*/
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #262A41;
+    font-family: "AvenirNext";
+}
+
+.moneyCost{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.itemName{                                /*Item List*/
+    display: flex;
+    color: #273240;
+    font-family: "Poppins";
+}
+
+.itemName h5{                              /*Item Title*/
+    font-size: 10px;
+}
+
+.itemName p{                               /*Item amount*/
+    font-size: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.foodAndDrink{
+    display: flex;
+    margin-top: -12px;
+}                                              
+
+.box{                                           /*Box Start*/
+    background-color: #EDF0F6;
+    height: 200px;
+    width: 220px;
+    margin-top: 60px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: "Poppins";
+}
+
+.boxImage{                                     /*Box Image*/
+    display: flex;
+    padding-left: 20px;
+}
+
+.boxImage img{
+    margin-top: -20px;
+    height: 60px;
+    width: 60px;
+}
+
+.boxText{                                  /*Save Money*/
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.boxText h4{
+    color: #273240;
+    font-size: 12px;
+}
+
+.boxText p{
+    color: #404852;
+    font-size: 10px;
+    margin-top: -15px;
+    opacity: 70%;
+}
+
+.button{                                    /*VIEW TIPS*/
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.button button{
+    width: 150px;
+    background-color: #101010;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 10px;
+    cursor: pointer;
+}
+                                              /*Box End*/
+                                              /*Right Content End*/
