@@ -65,8 +65,12 @@ body{
     color: #ffffff;
     font-size: 14px;
     opacity: 50%;
-}                                    /*Menu list End*/
-
+}                                    
+.menu ul li a:hover{
+    color:#ffffff;
+    opacity: 100%;
+}
+                                    /*Menu list End*/
 
 .content{                           /*Content Design Start*/
     background-color: #ffffff;
@@ -298,6 +302,11 @@ body{
     height: 30px;
     font-size: 10px;
     cursor: pointer;
+}
+
+.button button:hover{
+    background-color: lightgray;
+    color: #101010;
 }
                                               /*Box End*/
                                               /*Right Content End*/
